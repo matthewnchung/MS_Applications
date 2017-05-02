@@ -1,6 +1,6 @@
 # MS_Applications
 The following are a series of tests to help Multiple Sclerosis researchers better detect and track the progression of MS overtime. They are to be used in clinical trials to guage the effectiveness of different pharmeceuticals and medications on MS at the National Institutes of Health Clinical Center.  
-All applications write directly to a centralized Google Sheet using the Google Sheets API. Researchers take the data inputted data and can plot graphs to view a patients progress.
+All applications write directly to a centralized Google Sheet using the Google Sheets API. Researchers take the data inputted data and can plot graphs to view a patients progress. In addition, users create accounts by using Google SignIn or their personal emails. A unique key is provided to each user and that information is what is used to identify each user in the centralized Google Sheet.
 Some metrics such as accuracy and other scores are computed in the background and not presented to the user. This was a request by the client due to the negative effects it could have on patient morale in the case that their scores decreased.
 
 ## Homescreen
